@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foul and Ta'amiya - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Foul and Ta'amiya</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </p>
+
+      <p>
+        <label for="number">Number of sandwiches:</label>
+        <input type="number" id="number" name="number">
+      </p>
+
+      <p>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+      </p>
+
+      <p>Order type:</p>
+      <input type="radio" id="pickup" name="type" value="pickup">
+      <label for="pickup">Pickup</label>
+      <input type="radio" id="eatin" name="type" value="eatin">
+      <label for="eatin">Eat in</label>
+
+      <p>Extras:</p>
+      <input type="checkbox" id="pickles" name="extras" value="pickles">
+      <label for="pickles">Pickles</label>
+      <input type="checkbox" id="tahini" name="extras" value="tahini">
+      <label for="tahini">Tahini</label>
+
+      <p>
+        <label for="dish">Dish:</label>
+        <select id="dish" name="dish">
+          <option value="foul">Foul</option>
+          <option value="taamiya">Ta'amiya</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+      </p>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Foul and Ta'amiya</p>
+  </footer>
+</body>
+</html>
